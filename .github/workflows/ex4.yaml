@@ -5,4 +5,4 @@ on:
 jobs:
   docker-images:
     name: import
-    uses: ./.github/workflows/ex1.yaml
+    uses: raphaelbauduin/reimagined-spoon/.github/workflows/buildAndPublishDockerImage.yaml@main
