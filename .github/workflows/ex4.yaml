@@ -3,6 +3,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-npm-test:
-    steps:
-        uses: raphaelbauduin/reimagined-spoon/blob/main/.github/workflows/ex1.yaml@main
+  - name: import
+    uses: raphaelbauduin/reimagined-spoon/blob/main/.github/workflows/ex1.yaml@main
