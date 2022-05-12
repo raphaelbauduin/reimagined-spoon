@@ -18,3 +18,4 @@ jobs:
           node -v
           npm install
           npm test
+          echo "${GITHUB_SHA::7}"
