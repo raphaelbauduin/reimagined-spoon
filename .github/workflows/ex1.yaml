@@ -1,7 +1,5 @@
 name: npm test
-on:
-  workflow_dispatch:
-
+on:[push]
 jobs:
   steps:
     - uses: actions/checkout@v3
