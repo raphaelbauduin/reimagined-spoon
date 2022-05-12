@@ -3,5 +3,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  - name: import
+  docker-images:
+    name: import
     uses: raphaelbauduin/reimagined-spoon/blob/main/.github/workflows/ex1.yaml@main
